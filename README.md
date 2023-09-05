@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h1><b>ReactGroupProject</b></h1>
+  <h1><b>METRICS WEBAPP</b></h1>
 
 </div>
 
@@ -28,11 +28,11 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->#  📖 ReactGroupProject <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->#  📖 METRICS_WEBAPP <a name="about-project"></a>
 
 "ReactGroupProject" is a dynamic Space Travelers' Hub website. This repository serves as a showcase to demonstrate proficiency in utilizing different tools and implementing established practices acquired during prior stages. This is a collaborative project.
 
-_[ReactGroupProject]_ is React Redux project
+_[METRICS_WEBAPP]_ is React Redux project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,7 +71,7 @@ sh
 
 - Create a folder
 - cd into the folder you just created
-- Type git clone `https://github.com/MostafaShahat2021/ReactGroupProject.git`
+- Type git clone `https://github.com/NalianAchei2020/Metrics-webapp.git`
 
 ### Install
 
@@ -114,7 +114,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MostafaShahat2021/ReactGroupProject/issues).
+Feel free to check the [issues page](https://github.com/NalianAchei2020/Metrics-webapp/issues).
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -126,4 +126,4 @@ I would like to thank the Microverse community for their lessons
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/MostafaShahat2021/ReactGroupProject/blob/Add_appFeatures/LICENSE) licensed
+This project is [MIT](https://github.com/NalianAchei2020/Metrics-webapp/blob/master/LICENSE) licensed
