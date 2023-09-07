@@ -25,7 +25,7 @@ export const getCountresData = createAsyncThunk(
     } catch (error) {
       throw new Error(error);
     }
-  }
+  },
 );
 
 const countriesSlice = createSlice({
