@@ -51,7 +51,9 @@ _[METRICS_WEBAPP]_ is React Redux project
 
 ## 🚀 Live Demo
 
-- Coming Soon
+- [Demo Link](https://64f9c75b7a438e12dbe71b6c--calm-lily-c32576.netlify.app/)
+  
+## [VIDEO LINK](https://www.loom.com/share/9f04ae29b40b4901b146bd04a123f009)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
