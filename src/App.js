@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { getCountresData } from './redux/country/countrySlice';
 import Home from './pages/home';
+import Header from './Components/header';
+import Details from './pages/details';
 
 function App() {
   const dispatch = useDispatch();
@@ -12,8 +15,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>METRICS WEBAPP</h1>
-      <Home />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/countries/:name" element={<Details />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
