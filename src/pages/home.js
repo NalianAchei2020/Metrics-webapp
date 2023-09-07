@@ -1,6 +1,7 @@
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { BsArrowRightCircle } from 'react-icons/bs';
 import '../Components/style.css';
 
 function Home() {
@@ -12,8 +13,9 @@ function Home() {
     setSearchCountry(event.target.value);
   };
 
-  const filterData = countries.filter((item) => item.name.toLowerCase()
-    .includes(searchinCountry.toLowerCase()));
+  const filterData = countries.filter((item) =>
+    item.name.toLowerCase().includes(searchinCountry.toLowerCase())
+  );
   return (
     <section>
       {data.loading && <p>loading....</p>}
@@ -43,16 +45,17 @@ function Home() {
                 to={`/countries/${item.name}`}
                 key={item.name}
                 className={`small-container ${
-                  index === 1
-                  || index === 2
-                  || index === 5
-                  || index === 6
-                  || index === 9
-                  || index === 10
+                  index === 1 ||
+                  index === 2 ||
+                  index === 5 ||
+                  index === 6 ||
+                  index === 9 ||
+                  index === 10
                     ? 'active'
                     : ''
                 }`}
               >
+                <BsArrowRightCircle className="arrow" />
                 <img
                   src="Images/background-img.png"
                   alt={item.name}

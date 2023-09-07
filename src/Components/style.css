@@ -35,9 +35,17 @@
 
 .small-container {
   width: 100%;
-  height: 200px;
+  height: auto;
   background: #087591;
-  overflow: hidden;
+  position: relative;
+}
+.arrow {
+  font-size: 22px;
+  color: #fff;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 2;
 }
 
 .active {
