@@ -19,7 +19,6 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="//Metrics-webapp" element={<Home />} />
           <Route path="/countries/:name" element={<Details />} />
         </Routes>
       </Router>
