@@ -13,6 +13,7 @@ function Home() {
     setSearchCountry(event.target.value);
   };
 
+
   const filterData = countries.filter((item) => {
     const itemName = item.name.toLowerCase();
     const searchInCountry = searchinCountry.toLowerCase();
