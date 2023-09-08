@@ -13,9 +13,11 @@ function Home() {
     setSearchCountry(event.target.value);
   };
 
-  const filterData = countries.filter((item) =>
-    item.name.toLowerCase().includes(searchinCountry.toLowerCase())
-  );
+  const filterData = countries.filter((item) => {
+    const itemName = item.name.toLowerCase();
+    const searchInCountry = searchinCountry.toLowerCase();
+    return itemName.includes(searchInCountry);
+  });
 
   return (
     <section>
@@ -46,12 +48,12 @@ function Home() {
                 to={`/countries/${item.name}`}
                 key={item.name}
                 className={`small-container ${
-                  index === 1 ||
-                  index === 2 ||
-                  index === 5 ||
-                  index === 6 ||
-                  index === 9 ||
-                  index === 10
+                  index === 1
+                  || index === 2
+                  || index === 5
+                  || index === 6
+                  || index === 9
+                  || index === 10
                     ? 'active'
                     : ''
                 }`}
