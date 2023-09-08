@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->#  📖 METRICS_WEBAPP <a name="about-project"></a>
 
-"METRICS_WEBAPP" is a dynamic metrics webapp' .
+This is a capstone project that uses React and Redux technologies. The website provides detailed information about countries by utilizing an API.
 
 _[METRICS_WEBAPP]_ is React Redux project
 
@@ -46,13 +46,14 @@ _[METRICS_WEBAPP]_ is React Redux project
 
 ### Key Features <a name="key-features"></a>
 
-- _Reserve Rocket_
-- _Join Mission_
-- _Users profile_
+- [React, Redux, Css]
+- [Javascript functions, modules, ES6 syntax, variables, React testing, etc]
 
 ## 🚀 Live Demo
 
-- Coming Soon
+- [Demo Link](https://calm-lily-c32576.netlify.app/)
+  
+## [VIDEO LINK](https://www.loom.com/share/9f04ae29b40b4901b146bd04a123f009)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -123,6 +124,8 @@ If you like this project, please do well to give it a star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank the Microverse community for their lessons
+
+I wouldd like to thank [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the design guidelines.
 
 ## 📝 License <a name="license"></a>
 
