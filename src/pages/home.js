@@ -14,7 +14,7 @@ function Home() {
   };
 
   const filterData = countries.filter((item) =>
-    item.name.toLowerCase().includes(searchinCountry.toLowerCase())
+    (item.name.toLowerCase().includes(searchinCountry.toLowerCase()))
   );
 
   return (
