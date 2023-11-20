@@ -13,7 +13,7 @@ Object {
         >
           <img
             alt="back"
-            class="back"
+            class="back header-images"
             src="Images/back-icon.png"
           />
         </a>
@@ -25,12 +25,12 @@ Object {
         >
           <img
             alt="Mic-icon"
-            class="microphone"
+            class="microphone header-images"
             src="Images/mic-img.png"
           />
           <img
             alt="setting"
-            class="setting"
+            class="setting header-images"
             src="Images/setting-img.png"
           />
         </div>
@@ -46,7 +46,7 @@ Object {
       >
         <img
           alt="back"
-          class="back"
+          class="back header-images"
           src="Images/back-icon.png"
         />
       </a>
@@ -58,12 +58,12 @@ Object {
       >
         <img
           alt="Mic-icon"
-          class="microphone"
+          class="microphone header-images"
           src="Images/mic-img.png"
         />
         <img
           alt="setting"
-          class="setting"
+          class="setting header-images"
           src="Images/setting-img.png"
         />
       </div>
